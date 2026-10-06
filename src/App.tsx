@@ -2,6 +2,7 @@ import { motion, useScroll, useSpring } from 'framer-motion'
 import { ContactForm } from './components/ContactForm'
 import { CredibilityBar } from './components/CredibilityBar'
 import { CtaBanner } from './components/CtaBanner'
+import { Engineering } from './components/Engineering'
 import { Footer } from './components/Footer'
 import { Gallery } from './components/Gallery'
 import { Header } from './components/Header'
@@ -48,6 +49,7 @@ export default function App() {
         <VideoSection />
         <Journey />
         <Services />
+        <Engineering />
         <Gallery />
         <WhyRedeAr />
         <CtaBanner />
