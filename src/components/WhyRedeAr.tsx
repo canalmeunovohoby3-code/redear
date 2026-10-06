@@ -19,8 +19,8 @@ const REASONS = [
   },
   {
     icon: Wrench,
-    title: 'Montagem de tubulações',
-    text: 'Execução e organização da tubulação do sistema.',
+    title: 'Execução com qualidade e agilidade',
+    text: 'Montagem e organização de sistemas de ar comprimido com qualidade e agilidade.',
   },
   {
     icon: Globe2,
@@ -30,7 +30,7 @@ const REASONS = [
   {
     icon: Ruler,
     title: 'Atendimento direcionado à necessidade',
-    text: 'Soluções pensadas conforme a necessidade de cada cliente.',
+    text: 'Soluções pensadas conforme a necessidade de cada cliente, com projetos e consultoria.',
   },
 ]
 
