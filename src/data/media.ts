@@ -21,5 +21,5 @@ export const ENGINEERING_CARDS = [
   { title: 'Vista em planta da Sala de Compressores', src: '/1.png', alt: 'Vista em planta da sala de compressores' },
   { title: 'Projeto da Sala de Compressores 3D', src: '/2.png', alt: 'Projeto 3D da sala de compressores' },
   { title: 'Caça vazamentos em linha de Ar Comprimido', src: '/3.jpeg', alt: 'Caça vazamentos em linha de ar comprimido' },
-  { title: 'Título do serviço 04', src: '', alt: 'Serviço de engenharia RedeAr' },
+  { title: 'Fabricação e Montagem de Dutos de Exaustão', src: '/4.png', alt: 'Fabricação e montagem de dutos de exaustão' },
 ] as const
