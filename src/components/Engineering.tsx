@@ -35,8 +35,13 @@ export function Engineering() {
                   className="transition-transform duration-[900ms] ease-out group-hover:scale-[1.03]"
                 />
               </MediaFrame>
-              <figcaption className="mt-4 font-display text-base font-semibold leading-snug text-navy-700 transition-colors duration-300 group-hover:text-brand">
-                {item.title}
+              <figcaption className="mt-4">
+                <span className="block font-display text-base font-semibold leading-snug text-navy-700 transition-colors duration-300 group-hover:text-brand">
+                  {item.title}
+                </span>
+                {item.text && (
+                  <span className="mt-2 block text-sm leading-relaxed text-steel-500">{item.text}</span>
+                )}
               </figcaption>
             </motion.figure>
           ))}

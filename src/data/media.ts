@@ -15,11 +15,23 @@ export const GALLERY_PHOTOS = [
 ] as const
 
 // Cards da seção "Serviços de Engenharia".
-// Para publicar cada card: coloque a imagem em /public e informe o caminho em `src`
-// (ex.: '/engenharia-1.jpg') e o texto em `title`.
-export const ENGINEERING_CARDS = [
+// Para publicar cada card: coloque a imagem em /public e informe o caminho em `src`,
+// o texto em `title` e uma descrição opcional em `text`.
+export type EngineeringCard = {
+  title: string
+  text?: string
+  src: string
+  alt: string
+}
+
+export const ENGINEERING_CARDS: EngineeringCard[] = [
   { title: 'Vista em planta da Sala de Compressores', src: '/1.png', alt: 'Vista em planta da sala de compressores' },
   { title: 'Projeto da Sala de Compressores 3D', src: '/2.png', alt: 'Projeto 3D da sala de compressores' },
-  { title: 'Caça vazamentos em linha de Ar Comprimido', src: '/3.jpeg', alt: 'Caça vazamentos em linha de ar comprimido' },
+  {
+    title: 'Caça vazamentos em linha de Ar Comprimido',
+    text: 'Identificamos vazamentos nas tubulações, elaboramos um relatório técnico com a quantificação das perdas e executamos os reparos necessários, contribuindo para o aumento da eficiência energética e a redução dos custos operacionais da planta industrial.',
+    src: '/3.jpeg',
+    alt: 'Caça vazamentos em linha de ar comprimido',
+  },
   { title: 'Fabricação e Montagem de Dutos de Exaustão', src: '/4.png', alt: 'Fabricação e montagem de dutos de exaustão' },
-] as const
+]
