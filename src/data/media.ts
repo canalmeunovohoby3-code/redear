@@ -18,7 +18,7 @@ export const GALLERY_PHOTOS = [
 // Para publicar cada card: coloque a imagem em /public e informe o caminho em `src`
 // (ex.: '/engenharia-1.jpg') e o texto em `title`.
 export const ENGINEERING_CARDS = [
-  { title: 'Título do serviço 01', src: '', alt: 'Serviço de engenharia RedeAr' },
+  { title: 'Vista em planta da Sala de Compressores', src: '/1.png', alt: 'Vista em planta da sala de compressores' },
   { title: 'Título do serviço 02', src: '', alt: 'Serviço de engenharia RedeAr' },
   { title: 'Título do serviço 03', src: '', alt: 'Serviço de engenharia RedeAr' },
   { title: 'Título do serviço 04', src: '', alt: 'Serviço de engenharia RedeAr' },
