@@ -78,7 +78,7 @@ export function Services() {
       <div className="shell relative">
         <SectionHeading tone="light" eyebrow="Nossos Serviços" title="Veja como trabalhamos!" />
 
-        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {SERVICES.map((service, i) => {
             const Icon = service.Icon
             return (
