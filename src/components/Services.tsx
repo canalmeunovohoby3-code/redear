@@ -1,4 +1,4 @@
-import { ClipboardPen, Lightbulb } from 'lucide-react'
+import { ClipboardPen, DraftingCompass, Droplet, Lightbulb } from 'lucide-react'
 import type { ComponentType } from 'react'
 import { PipeLines } from './ui/Decor'
 import { Reveal } from './ui/Reveal'
@@ -53,6 +53,18 @@ const SERVICES: ServiceItem[] = [
       'Aparelho de ultima geração para realização de Caça Vazamentos e Analise de Demanda de Ar',
     Icon: Lightbulb,
   },
+  {
+    title: 'Projetos',
+    description:
+      'Elaboramos projetos de redes de ar comprimido sob medida, do dimensionamento à especificação dos materiais.',
+    Icon: DraftingCompass,
+  },
+  {
+    title: 'Caça Vazamentos em Tubulações',
+    description:
+      'Identificamos vazamentos nas tubulações e avaliamos as perdas para aumentar a eficiência e reduzir custos da sua rede.',
+    Icon: Droplet,
+  },
 ]
 
 export function Services() {
@@ -66,7 +78,7 @@ export function Services() {
       <div className="shell relative">
         <SectionHeading tone="light" eyebrow="Nossos Serviços" title="Veja como trabalhamos!" />
 
-        <div className="mt-14 grid gap-6 md:grid-cols-3">
+        <div className="mt-14 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
           {SERVICES.map((service, i) => {
             const Icon = service.Icon
             return (
