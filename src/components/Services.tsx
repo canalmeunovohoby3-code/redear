@@ -78,11 +78,16 @@ export function Services() {
       <div className="shell relative">
         <SectionHeading tone="light" eyebrow="Nossos Serviços" title="Veja como trabalhamos!" />
 
-        <div className="mt-14 grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="mt-14 grid auto-rows-fr gap-6 sm:grid-cols-2 lg:grid-cols-6">
           {SERVICES.map((service, i) => {
             const Icon = service.Icon
             return (
-              <Reveal key={service.title} direction="up" delay={i * 0.12} className="h-full">
+              <Reveal
+                key={service.title}
+                direction="up"
+                delay={i * 0.12}
+                className={`h-full lg:col-span-2 ${i === 3 ? 'lg:col-start-2' : ''}`}
+              >
                 <article className="group relative flex h-full flex-col border border-white/10 bg-white/[0.04] p-7 transition-all duration-300 hover:-translate-y-1 hover:border-[#F97316]/45 hover:bg-white/[0.06]">
                   <span
                     className="absolute left-0 top-0 h-px w-0 bg-[#F97316] transition-all duration-500 group-hover:w-full"
