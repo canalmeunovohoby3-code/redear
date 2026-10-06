@@ -19,7 +19,7 @@ export const GALLERY_PHOTOS = [
 // (ex.: '/engenharia-1.jpg') e o texto em `title`.
 export const ENGINEERING_CARDS = [
   { title: 'Vista em planta da Sala de Compressores', src: '/1.png', alt: 'Vista em planta da sala de compressores' },
-  { title: 'Título do serviço 02', src: '', alt: 'Serviço de engenharia RedeAr' },
+  { title: 'Projeto da Sala de Compressores 3D', src: '/2.png', alt: 'Projeto 3D da sala de compressores' },
   { title: 'Título do serviço 03', src: '', alt: 'Serviço de engenharia RedeAr' },
   { title: 'Título do serviço 04', src: '', alt: 'Serviço de engenharia RedeAr' },
 ] as const
