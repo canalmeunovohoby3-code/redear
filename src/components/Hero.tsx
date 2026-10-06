@@ -63,8 +63,8 @@ export function Hero() {
             variants={item}
             className="mt-7 max-w-md text-base leading-relaxed text-steel-500 sm:text-lg"
           >
-            Materiais e montagem de redes de ar comprimido com soluções em alumínio, PPR, inox e
-            galvanizado.
+            Projetos, materiais e montagem de redes de ar comprimido com soluções em alumínio, PPR,
+            inox e galvanizado.
           </motion.p>
 
           <motion.div

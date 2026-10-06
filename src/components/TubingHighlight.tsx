@@ -10,7 +10,7 @@ import { Reveal } from './ui/Reveal'
 const ATUACAO = [
   'Fornecimento de materiais',
   'Montagem de tubulações',
-  'Organização da rede',
+  'Consultoria e Projetos',
   'Soluções para sistemas de ar comprimido',
 ]
 
