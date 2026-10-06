@@ -39,7 +39,7 @@ const SERVICES: ServiceItem[] = [
   {
     title: 'Equipe de Engenharia',
     description:
-      'Realizamos levantamento técnica para entender a demanda do cliente e realização assim um projeto de trabalho',
+      'Realizamos um levantamento técnico detalhado para identificar a demanda do cliente e elaborar uma solução personalizada, garantindo maior eficiência e confiabilidade ao projeto.',
     Icon: ClipboardPen,
   },
   {
@@ -62,7 +62,7 @@ const SERVICES: ServiceItem[] = [
   {
     title: 'Caça Vazamentos em Tubulações',
     description:
-      'Identificamos vazamentos nas tubulações e avaliamos as perdas para aumentar a eficiência e reduzir custos da sua rede.',
+      'Identificamos vazamentos na rede de tubulações, elaboramos um relatório técnico com a quantificação das perdas e executamos os reparos necessários, contribuindo para o aumento da eficiência energética e a redução dos custos operacionais da planta industrial.',
     Icon: Droplet,
   },
 ]
