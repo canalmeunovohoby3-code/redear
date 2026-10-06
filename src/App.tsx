@@ -8,6 +8,7 @@ import { Header } from './components/Header'
 import { Hero } from './components/Hero'
 import { Journey } from './components/Journey'
 import { MapSection } from './components/MapSection'
+import { Services } from './components/Services'
 import { Solutions } from './components/Solutions'
 import { TubingHighlight } from './components/TubingHighlight'
 import { VideoSection } from './components/VideoSection'
@@ -46,6 +47,7 @@ export default function App() {
         <TubingHighlight />
         <VideoSection />
         <Journey />
+        <Services />
         <Gallery />
         <WhyRedeAr />
         <CtaBanner />
