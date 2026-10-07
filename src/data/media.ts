@@ -25,13 +25,8 @@ export type EngineeringCard = {
 }
 
 export const ENGINEERING_CARDS: EngineeringCard[] = [
-  { title: 'Vista em planta da Sala de Compressores', src: '/1.jpeg', alt: 'Vista em planta da sala de compressores' },
+  { title: 'Projetos e dimensionamento de rede de distribuição de ar comprimido', src: '/1.jpeg', alt: 'Vista em planta da sala de compressores' },
   { title: 'Projeto da Sala de Compressores 3D', src: '/2.jpeg', alt: 'Projeto 3D da sala de compressores' },
-  {
-    title: 'Caça vazamentos em linha de Ar Comprimido',
-    text: 'Identificamos vazamentos nas tubulações, elaboramos um relatório técnico com a quantificação das perdas e executamos os reparos necessários, contribuindo para o aumento da eficiência energética e a redução dos custos operacionais da planta industrial.',
-    src: '/3.jpeg',
-    alt: 'Caça vazamentos em linha de ar comprimido',
-  },
+  { title: 'Caça vazamentos em linha de Ar Comprimido', src: '/3.jpeg', alt: 'Caça vazamentos em linha de ar comprimido' },
   { title: 'Fabricação e Montagem de Dutos de Exaustão', src: '/4.png', alt: 'Fabricação e montagem de dutos de exaustão' },
 ]
